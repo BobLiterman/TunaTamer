@@ -45,7 +45,8 @@ This is a walkthrough of the development of a bioinformatics pipeline tailored t
                 | Thunnus orientalis                              | NC_008455             |
                 | Thunnus thynnus                                 | NC_014052             |
                 | Thunnus thynnus thynnus                         | NC_004901             |
-                | Thunnus tonggol                                 | NC_020673             |
+                | Thunnus tonggol                                 | NC_020673             |  
+                
 
 2. **Mitochondrial/Nuclear Read Separation**  
     - For each sample, we used [*bbmap*](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbmap-guide/) to map the WGS against all MitoFish mitochondrial genome assemblies. Any reads that mapped were partitioned as mitochondrial, and all other reads were partitioned as putatively nuclear.  
